@@ -1,5 +1,8 @@
 {
   "settingsInheritedFrom": "tabacmend-up/whitesource-config@main",
+  "scanSettings":{
+    "baseBranches": ["main", "log4j"]
+  },
 "remediateSettings": {
     "workflowRules": {
       "enabled": true
