@@ -4,8 +4,6 @@
     "baseBranches": ["main", "log4j"]
   },
 "remediateSettings": {
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
     "workflowRules": {
       "enabled": true
     },
@@ -14,7 +12,8 @@
     "extends": [
       "config:base",
       "github>whitesource/merge-confidence:beta",
-      "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"
+      "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge",
+      ":disableRateLimiting"
     ]
   }
 }
