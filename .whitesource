@@ -3,10 +3,6 @@
   "scanSettings":{
     "baseBranches": ["main", "log4j"]
   },
-"remediateSettings": {
-    "workflowRules": {
-      "enabled": true
-    },
     "remediateSettings": {
     "enableRenovate": true,
     "extends": [
