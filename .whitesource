@@ -4,6 +4,7 @@
     "baseBranches": ["main", "log4j"]
   },
 "remediateSettings": {
+   "ignorePresets": [":prHourlyLimit2"],
     "workflowRules": {
       "enabled": true
     },
